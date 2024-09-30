@@ -27,6 +27,11 @@ TubeFlix is built using **ASP.NET MVC** with **C#** and **.aspx pages**. It util
 ### User Authentication
 - **Sign-up and Login**: Users can create new accounts and securely log in to access their personalized experience.
 - **Password Security**: Secure handling of user credentials through proper encryption and validation.
+- **User Authentication**: Secure login and registration functionality that ensures user data privacy and integrity.
+- **Dynamic Content Catalog**: A vast library of movies and TV shows that users can browse through. The catalog includes detailed descriptions, genres, ratings, and thumbnails for each title.
+- **Personalized Watchlists**: Users can create and manage personalized watchlists, adding or removing content as per their preferences.
+- **Responsive Design**: Optimized for various devices, providing a seamless viewing experience on phones, tablets, and desktops.
+- **Session Management**: Maintains user session for continuous play and personalized user experience across different devices.
 
 ### Wishlist
 - **Add to Wishlist**: Users can add specific content (movies, TV shows) to their wishlist for future reference.
@@ -34,3 +39,9 @@ TubeFlix is built using **ASP.NET MVC** with **C#** and **.aspx pages**. It util
 
 ### Session Management
 - **Session Handling**: The website keeps track of user sessions to maintain a seamless browsing experience. User data, including their login status and wishlist, is stored using session variables.
+
+### Technical Specifications
+- **Backend**: Developed with ASP.NET MVC, which handles routing, URL mapping, and server-side logic.
+- **Database**: Utilizes Microsoft SQL Server for robust data management and storage solutions. The database schema supports complex queries for searching, inserting, and managing content efficiently.
+- **Frontend**: Employs .aspx pages integrated with backend logic to render dynamic content. JavaScript is used to enhance interactivity and CSS for styling, ensuring a modern and intuitive user interface.
+- **Security**: Implements standard security measures including data encryption, XSS prevention, and CSRF protection to safeguard user data and interactions.
